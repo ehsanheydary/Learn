@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<style>
+		div
+		{
+		
+		}
+		<!-- 
+			The third parameter is opacity of a color
+		-->
+			#d1{background-color : rgba(155,40,20,0.3);}
+			#d2{background-color : rgba(155,40,20,0.65);}
+			#d3{background-color : rgba(155,40,20,0.85);}
+		<!-- 
+			The first parameter is number of a color which can be between 0 to 360  ,
+			red = 0
+			green = 120
+			blue = 240
+			The second parameter is saturation,
+			شدت  رنگ
+			The thir parameter is  lighting,
+			میزان تیرگی
+		-->
+			#d4{background-color : hsl(0,100%,30%);}
+			#d5{background-color : hsl(0,70%,50%);}
+			#d6{background-color : hsl(0,40%,70%);}
+			
+			#d7{background-color : hsla(240,100%,30%,0.3);}
+			#d8{background-color : hsla(240,70%,50%,0.65);}
+			#d9{background-color : hsla(240,40%,70%,0.85);}
+			
+			#d10
+			{
+				height : 400px;
+				width : 800px;
+				<!-- حرکت از رنگی به سمت رنگ دیگر -->
+				/*background : repeating-linear-gradient(to top right,rgba(155,40,20,0.3)40%, rgba(155,40,20,0.6)60%);*/
+				background : repeating-radial-gradient(circle , red , rgba(255,40,20,0.3) 10%, rgba(155,40,20,0.6)20%);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="d1">Salam</div>
+		<div id="d2">Salam</div>
+		<div id="d3">Salam</div>
+		<br/><br/><hr/><br/><br/>
+		<div id="d4">Salam</div>
+		<div id="d5">Salam</div>
+		<div id="d6">Salam</div>
+		<br/><br/><hr/><br/><br/>
+		<div id="d7">Salam</div>
+		<div id="d8">Salam</div>
+		<div id="d9">Salam</div>
+		<br/><br/><hr/><br/><br/>
+		<div id="d10">Hello World</div>
+	</body>
+</html>

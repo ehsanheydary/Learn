@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<script type="text/javascript">
+		function Employee(FirstName , LastName , Job)
+		{
+			this.FirstName = FirstName;
+			this.LastName = LastName;
+			this.Job = Job;
+		}
+		var person1 = new Employee('Ehsan' , 'Heydari' , 'Programmer');
+		Employee.prototype.salary = null;
+		person1.salary = '2500000000RLS';
+		function ShowingCodes(e)
+		{
+			//Wrapper Methods
+			//alert(e.anchor('top'));
+			//alert(e.bold());
+			//alert(e.big());
+			//alert(e.fixed());
+			//alert(e.italics());
+			//alert(e.small());
+			//alert(e.strike());
+			//alert(e.link('#'));
+			//alert(e.sub());
+			//alert(e.sup());
+			
+			
+			//alert(e.toUpperCase());
+		
+			//جدا کردن یک رشته بر اساس یک حرف درون رشته هر تکه از رشته در یک خانه از آرایه قرار خواهد گرفت
+		    //var x =	e.split('i' , 2);
+			//alert(x[3]);
+			
+			
+			//alert(e.slice(2,8));
+		
+			//alert(e.search('Ehsan'));
+			
+			//alert(e.replace('Mohamad Rasai is going to be' , 'Ehsan Heydari is'))
+			
+			
+			//بدست اوردن شماره خانه یک رشته در رشته دیگر در صورت عدم وجو رشته مقدار برگشتی برابر 1- خواآد بود
+			//alert(e.indexOf('Ehsan' , 22));
+			//alert(e.lastIndexOf('i',85));
+			
+			//چسباندن چند رشته به یکدیگر
+			//var x = ' because ehsan taught him';
+			//var y = e.concat(x);
+			//alert(y);	
+			
+			
+			//متد بدست اوردن کو اسکی دکمه فشار داده شده در طول مشخص شده  رشته
+			//alert(e.charCodeAt(4));
+			
+			
+			//alert(e.charAt(3));
+			//alert(e.constructor);
+			//alert(e.length);
+			//alert(e);
+		}
+		</script>
+	</head>
+	<body>
+		
+		<input type="button" value="Showing Up Script Codes" onclick="ShowingCodes('Mohamad Rasai is going to be the best programmer in the world because Ehsan taught him')"/>
+		<input type="button" value="Showing Down Script Codes" onclick="ShowingDownCodes('Mohamad Rasai is going to be the best programmer in the world because Ehsan taught him')"/>
+		<script type="text/javascript"> 
+		function ShowingDownCodes(e)
+		{
+			document.write('Ehsan');
+			document.write(e.sup('http://www.abdollahi.us'));
+		}
+		</script>
+	</body>
+</html>

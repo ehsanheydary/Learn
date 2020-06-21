@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<style>
+			@font-face
+			{
+				font-family : myf;
+				src : url('yekan.ttf');
+			}
+			h1
+			{
+				text-shadow : 10px 10px 35px rgba(255,0,0,0.5);
+				font-family : myf;
+			}
+			#d1
+			{
+				width : 200px;
+				height : 200px;
+				background-color : pink;
+				<!-- the first parameter is horizontal distance
+				the second one is vertical distance
+				the third one is blur distance 
+				the forth one is size of shadow -->
+				box-shadow : 10px 10px 10px 12px green inset;
+			}
+			div
+			{
+				box-shadow : 0px 0px 60px 2px green inset;
+				width : 300px;
+				height : 300px;
+				background-color : pink;
+			}
+			#d2 > p:nth-child(1)
+			{
+				white-space : nowrap;
+				/*text-overflow : clip;*/
+				text-overflow : ellipsis;
+				overflow : hidden;
+			}
+			#d2 > p:nth-child(1):hover
+			{
+				overflow : visible;
+			}
+			#d2 > p:nth-child(2)
+			{
+				/*word-wrap : break-word;
+				word-break : keep-all;*/
+				word-break : break-all;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Hello World</h1>
+		<div id="d2">
+			<p>Hello Wolrd It's Ehsan Heydari Don't worry he is coming , he want to fix the world because he has the source code</p>
+			<p>Hello Wolrd It's Ehsan Heydari Don't worry he is coming , With vvvvvvvvvvvviiiiiiiiiiiirrrrrrrrrruuuuuuuuuuuusssssssssss , he want to fix the world because he has the source code</p>
+		</div>
+	</body>
+</html>

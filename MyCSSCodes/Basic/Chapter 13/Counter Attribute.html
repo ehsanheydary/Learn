@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<style>
+			body
+			{
+				counter-reset : section 1;
+			}
+			h1
+			{
+				counter-reset : subsection1;
+			}
+			h2
+			{
+				counter-reset : subsection2;
+			}
+			h2::before
+			{
+				counter-increment : subsection1;
+				content : "section " counter(section) "." counter(subsection1);
+			}
+			h3::before
+			{
+				counter-increment : subsection2;
+				content : "section " counter(section) "." counter(subsection1) "." counter(subsection2);
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Web Design</h1>
+		<h2>HTML</h2>
+		<h3>P Tag</h3>
+		<h3>A Tag</h3>
+		<h3>Div Tag</h3>
+		<h2>CSS</h2>
+		<h3>Attribute Selectors</h3>
+		<h3>Sudo element Selectors</h3>
+		<h3>Img Sprites</h3>
+		<h2>JS</h2>
+		<h3>Basic JS</h3>
+		<h3>Objects JS</h3>
+		<h3>Advanced JS</h3>
+	</body>
+</html>

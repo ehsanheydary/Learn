@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<Script language="javascript" type="text/javascript">
+			function GetNumbers()
+			{
+				var F = parseInt(prompt("First Number : "));
+				var S = eval(prompt("Second Number : "));
+				var O = prompt("Operator : ");
+				var result = Calc(F,S,O);
+				alert(result);
+			}
+			function Calc(FirstNumber , SecondNumber , Operator)
+			{
+				switch(Operator)
+				{
+					case "+" : return(FirstNumber + SecondNumber);
+					case "-" : return(FirstNumber - SecondNumber);
+					case "*" : return(FirstNumber * SecondNumber);
+					case "/" : return(FirstNumber / SecondNumber);
+				}
+			}
+		</Script>
+	</head>
+	<body onload="GetNumbers()">
+
+	</body>
+</html>

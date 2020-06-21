@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<Script type="text/javascript">
+		function date()
+		{
+			var d = new Date();
+			//time stamp گفته میشود
+			// (مقدار زمان سپری شده از مبدا را بر حسب میلی سانیه نشان میدهد (مبدا برابر با 00:00 اول ژانویه سال 1970
+			//var d = new Date(8631111111111111);
+			//var d = new Date('2010/05/19 23:20:20');
+			//var d = new Date(2010,05,21,23,20,20);
+			
+			// getDay starts from Sunday we show it with 0 number
+			//alert(d.getDay());
+			
+			// getDate Show us the number of day i current month
+			//alert(d.getDate());
+			
+			// getMilliseconds starts when we run the Codes
+			//alert(d.getMilliseconds());
+			
+			// getMinutes starts from the minute of current time
+			//alert(d.getMinutes());
+			
+			// getSeconds starts from the second of current time
+			//alert(d.getSeconds());
+			
+			// getTime Shows us stamp time from 0day until object of date
+			//alert(d.getTime());
+			
+			//alert(Date.parse('March 21 ,2012'));
+			
+			//alert(d);
+			//d.setTime(333612221545);
+			//alert(d);
+			
+			//alert(d.toDateString());
+			
+			alert(d.toString());
+		}
+		</Script>
+	</head>
+	<body onload="date()">
+		
+	</body>
+</html>

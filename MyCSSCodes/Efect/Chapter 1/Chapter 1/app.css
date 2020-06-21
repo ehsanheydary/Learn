@@ -1,0 +1,43 @@
+﻿body {
+    padding : 0;
+    margin : 0;
+}
+#main{
+    width : 400px;
+    height : 260px;
+    background-color : #eee;
+    margin : 20px auto;
+    text-align : left;
+    box-shadow :3px 3px 2px 0px #e2e2e2;
+    border : 1px solid yellow;
+
+}
+.title-post
+{
+    margin-top:0px;
+    font-family : 'Segoe UI';
+    font-size : 20px;
+    color : #111111;
+    padding-bottom : 10px;
+    border-bottom : 1px solid #000;
+    /*the first parameter is up and down values and the second parameter is the right and left values*/
+    padding : 10px 5px;
+}
+.title-post i {
+    float : left;
+    margin :9px 25px;
+
+}
+#main p{
+    padding : 15px 15px;
+    font-size :14px;
+    text-align : justify;
+    color :#666;
+}
+.meta-post{
+float: left;
+width: 100%;
+height: 40px;
+background-color: #d2d2d2;
+margin-top: 46px;
+}

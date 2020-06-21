@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<style>
+			a[title |="Hello World"]
+			{
+				color : red;
+			}
+			a[title~="HelloWorld"]
+			{
+				color : pink;
+			}
+			a[title$="Hello World"]
+			{
+				color : green;
+			}/**/
+			a[title*="World"]
+			{
+				background-color : black;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="#" title="Hello World 2">Click Here 1</a><br/>
+		<a href="#">Click Here 2</a><br/>
+		<a href="#" title="The best programmer in the world is ehsan who make programme with Hello World">Click Here 3</a><br/>
+		<a href="#" title="HelloWorld 4">Click Here 4</a><br/>
+		<a href="#" title="">Click Here 5</a><br/>
+		<a href="#">Click Here 6</a><br/>
+		<a href="#" title="Hello World-7">Click Here 7</a><br/>
+		<a href="#" title="HelloWorld">Click Here 8</a><br/>
+	</body>
+</html>

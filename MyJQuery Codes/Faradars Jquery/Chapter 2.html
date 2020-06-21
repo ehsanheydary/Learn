@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<style>
+			p
+			{
+				background-color : yellow;
+				color : red;
+				position : relative;
+			}
+		</style>
+		<script src="../js/jquery-3.3.1.min.js"> </script>
+		<script>
+			$(document).ready(function(){
+				$('#btnHide').click(function(){
+					$('p').hide(1000)
+				});
+					$('#btnShow').click(function(){
+					$('p').show(1000)
+				});
+					$('#btnToggle').click(function(){
+					$('p').toggle(1000)
+				});
+				$('#btnFadeOut').click(function(){
+					$('p').fadeOut(1000)
+				});
+				$('#btnFadeIn').click(function(){
+					$('p').fadeIn(1000)
+				});
+				$('#btnFadeToggle').click(function(){
+					$('p').fadeToggle(1000)
+				});
+					$('#btnFadeTo').click(function(){
+					$('p').fadeTo(1000 , .2)
+				});
+					$('#btnSlideUp').click(function(){
+					$('p').slideUp(1000)
+				});
+					$('#btnSlideDown').click(function(){
+					$('p').slideDown(1000)
+				});
+					$('#btnSlideToggle').click(function(){
+					$('p').slideToggle(1000)
+				});
+					$('#btnAnimate').click(function(){
+					$('#p1').animate({'left':'200px' , 'top' : '300px' , 'fontSize' : '100pt' , 'height' : 'toggle'} , 5000)
+					.animate({'left':'0px' , 'top' : '0px' , 'fontSize' : '14pt' , 'height' : 'toggle'} , 1000)
+					.animate({'left':'200px' , 'top' : '100px' , 'fontSize' : '12pt'} , 1000)
+					.animate({'height':'400px' , 'width' : '100px' , 'fontSize' : '12pt'} , 1000)
+				});
+				$('#Stop').click(function(){
+					$('#p1').stop(true,true);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input type="button" value="Hide" id="btnHide" />
+		<input type="button" value="Show" id="btnShow" />
+		<input type="button" value="Toggle" id="btnToggle" />
+		<input type="button" value="Fade Out" id="btnFadeOut"/>
+		<input type="button" value="Fade In" id="btnFadeIn"/>
+		<input type="button" value="Fade Toggle" id="btnFadeToggle"/>
+		<input type="button" value="Fade To" id="btnFadeTo"/>
+		<input type="button" value="Slide Up" id="btnSlideUp"/>
+		<input type="button" value="Slide Down" id="btnSlideDown"/>
+		<input type="button" value="Slide Toggle" id="btnSlideToggle"/>
+		<input type="button" value="Animate" id="btnAnimate"/>
+		<input type="button" value="Stop" id="Stop"/>
+		<p id="p1">Salam 1</p>
+		<p>Salam 2</p>
+	</body>
+</html>

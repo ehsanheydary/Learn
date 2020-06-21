@@ -1,0 +1,28 @@
+<html>
+	<head>
+				<script language="javascript" type="text/javascript">
+			// Creating an Array
+			var array1 = new Array();
+			array1[1] = 'Ehsan';
+			array1[2] = 'Heydari';
+			array1[3] = 'Rofagha';
+			// Creating an Array with another syntax
+			var array2 = new Array('Ehsan' , 'Heydari' , 'Rofagha' , array1);
+			var array3 = ['flavor code' ,'My Web Site is the biggest civil engineering web site in the world' , 'Hello World',12345,array2];
+			var array5 = {Name : 'Flavor Code' , LastName : 'Heydari' , age : '23 years of age',innerarray : array3};
+			var array4 = {Name : 'Flavor Code' , plan1 : 'Creating job for people' , plan2 : 'Hellping Frinds to be programmer' , plan3 : 'Creatin the biggest web site in the world for civil engineers' , plan4 : 'To be the rechest person in the iran after that in the world as soon as possible' , plan5 : array3 , plan6 : array2 , plan7 : array1 , plan8 : array5};
+			function ChangeText()
+			{
+				document.getElementById('p1').innerHTML = array4['plan8'].innerarray[4][3];
+			}
+			var Name = 10;
+			alert('6'+10); // It's going to convert number 10 to a string and Concate them;
+			alert(('6'+10)*2); // It's going to convert string 6 to a Number if it be possible and Multiplicate them;
+		</script>
+	</head>
+	<body onload="ChangeText()">
+		<p id="p1">
+			Hello World
+		</p>
+	</body>
+</html>

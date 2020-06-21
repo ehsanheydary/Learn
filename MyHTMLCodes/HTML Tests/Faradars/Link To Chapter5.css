@@ -1,0 +1,19 @@
+p , h1 , address , samp
+	{
+	  color:red;
+	  font-size:24;
+	  background-color:black;
+	  font-family:B KAMRAN;
+	  font-weight:700;
+	  direction:rtl;
+	  text-align:right;
+	}
+	.Name
+	{
+	    color:lime;
+		font-family:Tahoma;
+	}
+	#id
+	{
+	  color:yellow;
+	}

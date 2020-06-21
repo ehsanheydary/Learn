@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<style>
+		body
+		{
+			margin : 0px;
+		}
+		ul
+		{
+			list-style-type:none;
+			margin : 0px;
+			padding : 0px;
+			overflow : hidden;
+			
+		}
+		li
+		{
+			background-color : yellow;
+			float : left;			
+			width : 130px;
+			
+		}
+		li a
+		{
+			text-decoration : none;
+			
+
+		}
+		li ul
+		{
+			display : none;
+		}
+		li:hover ul
+		{
+			display : block;
+
+		}
+		ul ul
+		{
+		
+		}
+		div
+		{
+			width : 1500px;
+			height : 1500px;
+			background-color : pink;
+
+		}
+		</style>
+	</head>
+	
+	<body>
+		<ul >
+		<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li class="active"><a  href="#">JAVASCRIPT</a>
+				<ul>
+					<li>Basic JS</li>
+					<li>Normal JS</li>
+					<li>Perfect JS</li>
+				</ul>
+			</li>
+			<li><a href="#">PHP7</a></li>
+			<li><a href="#">JQUERY</a></li>
+			<li><a href="#">AJAX</a></li>
+			<li><a href="#">BOOTSTRAP</a></li>
+			<li><a href="#">MySQL</a></li>
+			<ul >
+				<li style ="float: left; display: block;">
+					<a href="#">Login</a>
+					<a href="#">Sign Up</a>
+				</li>
+			</ul>
+		</ul>
+		<div> </div>
+	</body>
+</html>

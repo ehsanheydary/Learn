@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<script language= "JavaScript" type="text/JavaScript">
+			function WriteNumbers(Min , Max , Counter)
+			{
+				for(var i=Min;i<=Max;i+=Counter)
+				{
+					document.write(i + '<br/>');
+				}
+			}
+			function WriteNumbers1(i , Max , Counter)
+			{
+				while(i <= Max)
+				{
+					document.write(i + '<br/>');
+					i += Counter;
+				}
+			}
+			function WriteStrings()
+			{
+				var array3 = ['flavor code' ,'My Web Site is the biggest civil engineering web site in the world' , 'Hello World',12345];
+				for(var i=0;i<array3.length;i++)
+				{
+					document.write(array3[i] + '<br/>');
+				}
+			}
+			function f1()
+			{
+				var input = prompt('Hello World : put * for finish');
+				var sum = input;
+				while(sum != '*')
+				{
+					sum += prompt('Hello World : put * for finish');
+				}
+				alert(sum);
+			}
+			function f2()
+			{
+				var i = 10;
+				do
+				{
+					alert(i += 3);
+				}
+				while(i < 500)
+			}
+			function LoopOnObjects()
+			{
+				var txt;
+				var x = {fname : 'Ehsan' , lname : 'Heydari' , age : 23}
+				for(var x in x)
+				{
+					alert(y);
+				}
+			}
+		</script>
+	</head>
+	<body onload="LoopOnObjects()"//"f2()"//"f1()"//"WriteNumbers1(parseInt(prompt('Min : ')) , parseInt(prompt('Max : ')) , parseInt(prompt('Counter : ')))"//"WriteNumbers(parseInt(prompt('Min : ')) , parseInt(prompt('Max : ')) , parseInt(prompt('Counter : ')))"> 
+		
+	</body>
+</html>

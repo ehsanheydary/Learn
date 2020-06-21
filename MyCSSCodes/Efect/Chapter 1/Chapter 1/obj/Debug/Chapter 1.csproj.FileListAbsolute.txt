@@ -1,0 +1,6 @@
+D:\XAMPP\htdocs\MyCSSCodes\Efect\Chapter 1\Chapter 1\bin\Chapter 1.dll.config
+D:\XAMPP\htdocs\MyCSSCodes\Efect\Chapter 1\Chapter 1\bin\Chapter 1.dll
+D:\XAMPP\htdocs\MyCSSCodes\Efect\Chapter 1\Chapter 1\bin\Chapter 1.pdb
+D:\XAMPP\htdocs\MyCSSCodes\Efect\Chapter 1\Chapter 1\obj\Debug\Chapter 1.dll
+D:\XAMPP\htdocs\MyCSSCodes\Efect\Chapter 1\Chapter 1\obj\Debug\Chapter 1.pdb
+D:\XAMPP\htdocs\MyCSSCodes\Efect\Chapter 1\Chapter 1\obj\Debug\Chapter 1.csprojResolveAssemblyReference.cache

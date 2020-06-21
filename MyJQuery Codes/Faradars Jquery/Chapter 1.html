@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<style>
+			body
+			{
+				margin : 0px;
+				padding : 0px;
+			}
+			p
+			{
+				color : red;
+				background-color : yellow;
+				width : 200px;
+				height : 200px;
+			}
+		</style>
+		<script src="../js/jquery-3.3.1.min.js">
+		</script>
+	<script>
+		$.noConflict();
+		jQuery(document).ready(function()
+		{
+				$('btnHide').click(function()
+				{
+					$('p').hide();
+				});
+				
+				jQuery('#btnHide').hover(function(){
+				jQuery('.c1').hide();
+				} , function()
+				{
+				jQuery('.c1').show();
+				});
+				jQuery('#txtNumber').focus(function()
+				{
+				jQuery(this).css('background-color', 'red');
+				});
+				jQuery('#txtNumber').blur(function()
+				{
+					jQuery(this).css('background-color' , 'white');
+				});
+				//var person = {fname : "ali" , lname : "alavi" , age:23}
+				jQuery('#btnHide').on(
+					{
+						'click' : function(){
+						jQuery('.c1').hide();
+					},
+					'mouseenter' : function(){
+					jQuery(this).css('background-color', 'green');
+					},
+					'mouseleave' : function(){
+					jQuery(this).css('background-color', 'white');
+					}
+				});
+		});
+	</script>
+	</head>
+	<body>
+		<input type="text" id="txtNumber" value="" />
+		<input type="button" id="btnHide" value="hide" />
+		<p class="c1">Salam</p>
+		<p class="c1">Salam</p>
+		<p class="c1">Salam</p>
+		<p class="c1">Salam</p>
+		<p>Salam</p>
+		<p>Salam</p>
+		<p>Salam</p>
+		<p>Salam</p>
+	</body>
+</html>

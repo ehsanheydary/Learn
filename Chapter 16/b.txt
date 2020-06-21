@@ -1,0 +1,1 @@
+a:6:{s:2:"pi";d:3.14;s:1:"e";d:2.71;s:1:"g";d:9.81;s:5:"Hello";s:2:"hi";s:6:"Domain";s:5:"Civil";s:6:"Course";s:15:"Php programming";}

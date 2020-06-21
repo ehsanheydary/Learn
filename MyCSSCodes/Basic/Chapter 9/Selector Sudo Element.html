@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<style>
+		p	a:first-child
+			{
+				color:red;
+			}
+			#d1
+			{
+				width : 200px;
+				height : 200px;
+				background-color:blue;
+			}
+		q:lang(en)
+		{
+			quotes : "<" ">"
+		}
+		a:last-child
+		{
+			color : silver;
+		}
+		a:nth-child(2)
+		{
+			font-size : 24pt;
+		}
+		#d1::first-line
+		{
+			font-weight : bold;
+		}
+		#d2::first-letter
+		{
+			font-family : tahoma;
+			font-size : 46pt;
+		}
+		a::after
+		{
+			content : "+-+-";
+		}
+		a::before
+		{
+			content : "+-+-";
+		}
+		.required::after
+		{
+			content : "*";
+			color : red;
+		}
+		#d1::selection
+		{
+			color:red;
+			background-color:black;
+		}
+		</style>
+	</head>
+	<body>
+		<div class=required>
+		<input type="text">
+		</div>
+		<q lang="en">Ehsan Heydari Is the best programmer in the world</q>
+		<br/>
+		<a>Link 1</a>
+		<a>Link 2</a>
+		<a>Link 3</a>
+		<div id="d1">
+			<p id="d1">Ehsan Heydari Is the best programmer in the world</p>
+			<a>Link 4</a>
+			<p>
+				<a>Link 5</a>
+				<a>Link 6</a>
+			</p>
+		</div>
+		<div id="d2">
+		<p>link 7</p>
+		<p>link 7</p>
+		<p>link 7</p>
+		</div>
+		<a >Link 7</a>
+		<a>Link 8</a>
+		<a>Link 9</a>
+	</body>
+</html>

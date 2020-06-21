@@ -1,0 +1,32 @@
+{
+  "FirstName":"Ehsan",
+  "LastName":"Heydari",
+  "Data":
+  {
+    "Post":
+    [
+      {
+        "id" : "2",
+        "text" : "Salam"
+      }
+      ,
+      {
+       "id" : "3",
+        "text" : "Khobi"
+      }
+    ],
+    "Comments" :
+    [
+      {
+        "id" : "12",
+        "postid" : "2",
+        "text" : "Test comment 1"
+      },
+      {
+        "id" : "13",
+        "postid" : "3",
+        "text" : "Salam Khobi 2"
+      }
+    ]
+  }
+}

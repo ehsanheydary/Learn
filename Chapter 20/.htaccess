@@ -1,0 +1,10 @@
+#deny from all
+Options All -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /Chapter%2020/
+RewriteRule ^index\.php - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST-FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>

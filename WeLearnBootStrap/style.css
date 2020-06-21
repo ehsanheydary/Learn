@@ -1,0 +1,80 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font: 12px/25px tahoma;
+}
+p
+{
+    padding: 20px;
+}
+textarea
+{
+    resize: none;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+th
+{
+    background: #333;
+    color : #fff
+}
+th,td
+{
+    padding : 5px;
+    border: 1px solid #DDDDDD;
+}
+@media only screen and (max-width : 721px)
+{
+    table , thead , tbody , th ,tr , td
+    {
+        display: block;
+    }
+    thead th
+    {
+        display: none;
+    }
+    td
+    {
+        border: 0;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: 50%;
+    }
+    td:before
+    {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 45%;
+        white-space : nowrap;
+    }
+    td:nth-of-type(1):before
+    {
+        color : #a94442;
+        content: 'Firstname :';
+    }
+    td:nth-of-type(2):before
+    {
+        content: 'Lastname :';
+    }
+    td:nth-of-type(3):before
+    {
+        content: 'Email :';
+    }
+    td:nth-of-type(4):before
+    {
+        content: 'Job :';
+    }
+}
+.wrapper
+{
+    width: 900px;
+    margin: 50px auto;
+}
