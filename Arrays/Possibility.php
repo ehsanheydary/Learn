@@ -28,7 +28,6 @@ for ($i= 0; $i<$n ; $i++)
 $f = array("1"=>$f1,"2"=>$f2,"3"=>$f3,"4"=>$f4,"5"=>$f5,"6"=>$f6);
 foreach ($f as $x=>$y)
 {
-$y /= 100000;
 print_r($x);
     echo "<br/>";
 print_r($y);

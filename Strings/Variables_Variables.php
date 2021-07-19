@@ -1,9 +1,12 @@
 <?php
-$a = 10;
+$_4 = 2;
+$_10 = '_4';
+$a = '_10';
 $b = 20;
 $c = 30;
 $varname = "a";
-echo $$varname;
+echo '<br/>';
+echo $$$$varname;
 echo "<br/>";
 $array = ["a", "b","c"];
 foreach ($array as $variable)
@@ -16,3 +19,4 @@ $vars = get_defined_vars();
 echo "<pre>";
 print_r($vars);
 echo "</pre>";
+

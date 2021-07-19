@@ -13,11 +13,11 @@ multiplay();
 
 function multiplay()
 {
-    static $counter;
+    static $counter = 0;
     $counter++;
     if($counter > 5)
     {
-        echo '<p style="color: red;">The function call limit exceeded.</p>';
+        echo '<p style="color: #ff0000;">The function call limit exceeded.</p>';
         return;
     }
     echo $counter;

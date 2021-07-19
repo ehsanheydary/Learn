@@ -24,6 +24,7 @@ echo '$a['.$i.'] = ' . $a[$i];
 echo '<br/>';
 echo '$e = ' . $e;
 
+
 $e = 0;
 echo '<br/>';
 echo '<br/>';
@@ -31,3 +32,21 @@ echo 'After';
 echo '$a['.$i.'] = ' . $a[$i];
 echo '<br/>';
 echo '$e = ' . $e;
+
+
+
+
+
+echo '<br/>';echo '<br/>';echo '<br/>';
+$ocho = 455;
+$yacha = 5;
+
+
+
+$func = function ($ocho) use (&$yacha)
+{
+    echo $yacha;
+    $yacha++;
+    echo $yacha;
+};
+echo $yacha;

@@ -11,3 +11,18 @@ echo "<pre>";
 echo "this is a \"test\" for strings whith hexadecimal code \x0D !";
 echo "</pre>";
 echo "<br/>";
+
+echo '<pre>';
+
+echo 'hello 
+
+world 
+
+$b 
+
+
+<br/>
+';
+echo '</pre>';
+
+print 'print replace with echo';
